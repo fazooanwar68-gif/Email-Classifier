@@ -50,7 +50,7 @@ model = pickle.load(open('model.pkl', 'rb'))
 
 st.title("Email Classifier")
 html_temp = """
-<div style="background-color:tomato;padding:10px">
+<div style="background-color:blue;padding:10px">
 <h2 style="color:white;text-align:center;">Streamlit Email Spam Detector ML App </h2>
 </div>
 <br>
@@ -87,4 +87,4 @@ st.write("\n" * 15)
 # Add a bold line above the footer
 st.markdown("<hr style='border: 2px solid black;'>", unsafe_allow_html=True)
 # Footer content
-st.write("Copy© 2026 Adeel Munir | Made With ❤️ in Pakistan")
+st.write("Copy© 2026 ")
