@@ -6,6 +6,9 @@ from nltk.tokenize import word_tokenize
 import nltk
 from nltk.stem.porter import PorterStemmer
 
+background_image = 'image.jpg'
+st.image(background_image, width=700)
+
 nltk.download('punkt')
 nltk.download('punkt_tab')
 nltk.download('stopwords')
@@ -87,4 +90,4 @@ st.write("\n" * 15)
 # Add a bold line above the footer
 st.markdown("<hr style='border: 2px solid black;'>", unsafe_allow_html=True)
 # Footer content
-st.write("Copy© 2026 ")
+st.write("Copy© 2026  Email Classifier v1.0 | Developed by Fazila Anwar")
